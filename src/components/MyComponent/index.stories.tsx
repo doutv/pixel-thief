@@ -1,10 +1,8 @@
-import { Meta } from "@storybook/react/types-6-0"
+import { Meta } from "@storybook/react/types-6-0";
 import { MyComponent } from ".";
 
 export default {
-    title: `MyComponent`
+    title: `MyComponent`,
 } as Meta;
 
-export const Index = () => <MyComponent></MyComponent>
-
-export const test = () => <div>Hello World!</div>
+export const Index = () => <MyComponent></MyComponent>;
