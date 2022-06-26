@@ -6,3 +6,5 @@ export default {
 } as Meta;
 
 export const Index = () => <MyComponent></MyComponent>
+
+export const test = () => <div>Hello World!</div>
